@@ -1,0 +1,28 @@
+h1{
+    color: rebeccapurple;
+}
+.big-text{
+    font-size:xx-large;
+    color: #ff0000;
+}
+.left-15 {
+    margin-left: 1.5em;
+}
+#border{
+    border:  1px solid black;
+
+}
+    
+.my-text{
+    font-family: Arial;
+    border: 2px solid black;
+    width: fit-content;
+    box-shadow: black;
+    text-transform: uppercase;
+    border-radius:14px ;
+
+    padding:1em 2em;
+    background: skyblue;
+
+    margin: 2em 2em;
+}
