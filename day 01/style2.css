@@ -1,0 +1,40 @@
+div {
+    width: 100px;
+    height: 100px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 100px;
+    align-items:center;
+    line-height: center;
+    border-radius: 10px;
+    font-size: 20px;
+ }
+ span{
+    position: absolute;
+    right: 3px;
+    top: 35px;
+ }
+ .box1 {
+    background-color: #ff0000;
+    top: 0px;
+    left: 0px;
+    position:  absolute;
+ }
+ .box2 {
+    background-color: #0d00ff;
+    top: 0px;
+    right: 0px;
+    position: absolute;
+ }
+ .box3 {
+    background-color: #d0ff00;
+    bottom: 0px;
+    left: 0px;
+    position: absolute;
+ }
+ .box4 {
+    background-color: green;
+    bottom: 0px;
+    right: 0px;
+    position: absolute;
+ }

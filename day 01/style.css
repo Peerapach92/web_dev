@@ -12,7 +12,8 @@ h1{
     border:  1px solid black;
 
 }
-    
+
+
 .my-text{
     font-family: Arial;
     border: 2px solid black;
@@ -25,4 +26,14 @@ h1{
     background: skyblue;
 
     margin: 2em 2em;
+}
+
+.box1{
+    color: wheat;
+    width: 100px;
+    height: 100px;
+    background: red;
+    text-align: center;
+    line-height: 100px;
+    border: 10px solid blue;
 }
