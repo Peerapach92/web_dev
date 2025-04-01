@@ -1,0 +1,140 @@
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    min-height: 100vh;
+}
+
+.hero {
+    width: 65%; 
+    height: 100vh;
+    background-image: url('https://images.unsplash.com/photo-1694875546238-67cb3596adf1?q=80&w=1336&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.95);
+    text-transform: uppercase;
+    position: relative;
+}
+
+.logo {
+    font-size: clamp(5rem, 15vw, 13rem); 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: yellow;
+    padding: 10px 20px;
+    border-radius: 5px;
+    position: relative; 
+    top: -70px;
+    left: 30px;
+    opacity: 0.9; 
+
+}
+
+
+.hero p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 200px;
+}
+
+
+.shopping-section p {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.shopping-section .arrow {
+    text-align: center;
+    font-size: 18px;
+}
+
+.button {
+    background-color: rgba(255, 218, 0, 0.8); 
+    padding: 15px;
+    border-radius: 30px;
+    width: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(255, 255, 255); 
+    margin-bottom: 20px;
+}
+
+.arrow {
+    font-size: 30px;
+    margin-right: 18vw; 
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+}
+
+.content {
+    width: 30%; 
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+
+.box {
+    height: 23vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: flex-start;  
+    justify-content: flex-start; 
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+    min-height: 100px;
+    position: relative;
+}
+
+.box::before {
+    content: attr(data-text); 
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    font-size: 1.3rem;
+}
+
+.box1 { background-image: url('https://www.ikea.com/ext/ingkadam/m/451670cca84d7d44/original/PH171628-crop002.jpg?f=sg'); }
+.box2 { background-image: url('https://th.bing.com/th/id/OIP.1kf69dR3Ud6oaj4J4yHimQHaEK?w=800&h=450&rs=1&pid=ImgDetMain'); }
+.box3 { background-image: url('https://th.bing.com/th/id/R.d7b4bc2ede14afcac2900977f754245a?rik=HXLG%2bZmkFZsmqw&pid=ImgRaw&r=0'); }
+.box4 { background-image: url('https://th.bing.com/th/id/OIP.YvFz6IgGNyhm-iKT7We1eAHaE8?rs=1&pid=ImgDetMain'); }
+
+@media screen and (max-width: 1200px) {
+    body {
+        flex-direction: column;
+    }
+
+    .hero {
+        width: 100%;
+        height: 90vh;
+    }
+
+    .content {
+        width: 90%;
+    }
+}
